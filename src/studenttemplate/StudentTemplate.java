@@ -12,11 +12,13 @@ package studenttemplate;
 public class StudentTemplate {
 
     private String name;//Encapsulation
+    private int id;
 
    //constuctor
-    public StudentTemplate(String n)
+    public StudentTemplate(String n,int s)
     {
         this.name=n;
+        this.id=s;
     }
     public StudentTemplate()
     {
@@ -31,6 +33,20 @@ public class StudentTemplate {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
     }
      
 }
