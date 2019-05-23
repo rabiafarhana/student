@@ -15,10 +15,10 @@ public class StudentTester {
         //s1.setName("rabia");
         //System.out.println(s1.getName());
          
-        StudentTemplate s2=new StudentTemplate("rabia,227");//object created
+        StudentTemplate s2=new StudentTemplate("rabia",227);//object created
         //s2.setName("shikha");
         //System.out.println(s2.getName());
-        StudentTemplate s3=new StudentTemplate("shikha,2245");
+        StudentTemplate s3=new StudentTemplate("shikha",2245);
         StudentTemplate[] list=new StudentTemplate[3];//Array of object for student template class
         list[0]=s1;
         list[1]=s2;
