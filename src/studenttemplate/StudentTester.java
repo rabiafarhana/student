@@ -28,6 +28,6 @@ public class StudentTester {
     System.out.println(list[i].getName()+" " +list[i].getId());
         }
      }
-    System.out.println("Rabia");
+    System.out.println("Fetch Example");
     
 }
