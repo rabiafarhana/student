@@ -56,6 +56,7 @@ public class User
      */
     public void setPassword(String givenPass)
     {
+        //
         password = givenPass;
     }
     
