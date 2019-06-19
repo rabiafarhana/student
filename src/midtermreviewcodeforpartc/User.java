@@ -37,6 +37,7 @@ public class User
      * The setter for the user name
      * @param givenName the name to set
      */
+    //rabia
     public void setName(String givenName) {
         name = givenName;
     }
